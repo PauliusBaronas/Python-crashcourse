@@ -1,8 +1,7 @@
 import math
 
-flag = True 
 
-while flag == True:
+while True:
 	h = input("Please input the height, in meters (or write 'quit' to end): ")
 	if str(h) == 'quit':
 		break
